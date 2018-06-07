@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b52b0e1f-353e-41cc-887c-cfb7fe31ba63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/strategy/Flyable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/strategy/Quackable.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Duck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tests.java" afterDir="false" />
     </list>
@@ -21,8 +22,8 @@
           <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/Tests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="371">
-                  <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+                <state relative-caret-position="1875">
+                  <caret line="125" column="58" selection-start-line="125" selection-start-column="58" selection-end-line="125" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
@@ -34,27 +35,38 @@
           <file leaf-file-name="Duck.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Duck.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+                <state relative-caret-position="503">
+                  <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
                   <folding>
-                    <element signature="e#52#53#0" expanded="true" />
-                    <element signature="e#71#72#0" expanded="true" />
-                    <element signature="e#99#100#0" expanded="true" />
-                    <element signature="e#117#118#0" expanded="true" />
+                    <element signature="e#95#96#0" expanded="true" />
+                    <element signature="e#109#110#0" expanded="true" />
+                    <element signature="e#144#145#0" expanded="true" />
+                    <element signature="e#160#161#0" expanded="true" />
+                    <element signature="e#51#52#0" expanded="true" />
+                    <element signature="e#76#77#0" expanded="true" />
+                    <element signature="class#FlyBehavior#0" />
+                    <element signature="class#FlyWithWings#0" />
+                    <element signature="e#222#223#0" expanded="true" />
+                    <element signature="e#247#248#0" expanded="true" />
+                    <element signature="class#FlyNoWay#0" />
+                    <element signature="e#312#313#0" expanded="true" />
+                    <element signature="e#334#335#0" expanded="true" />
+                    <element signature="class#QuackBehavior#0" />
+                    <element signature="class#Quack#0" />
+                    <element signature="e#446#447#0" expanded="true" />
+                    <element signature="e#468#469#0" expanded="true" />
+                    <element signature="class#Squeak#0" />
+                    <element signature="e#535#536#0" expanded="true" />
+                    <element signature="e#557#558#0" expanded="true" />
+                    <element signature="class#MuteQuack#0" />
+                    <element signature="e#627#628#0" expanded="true" />
+                    <element signature="e#646#647#0" expanded="true" />
                     <element signature="e#340#341#0" expanded="true" />
                     <element signature="e#352#353#0" expanded="true" />
-                    <element signature="e#377#378#0" expanded="true" />
-                    <element signature="e#402#403#0" expanded="true" />
                     <element signature="e#323#324#0" expanded="true" />
                     <element signature="e#345#346#0" expanded="true" />
-                    <element signature="e#496#497#0" expanded="true" />
-                    <element signature="e#521#522#0" expanded="true" />
-                    <element signature="e#455#456#0" expanded="true" />
-                    <element signature="e#467#468#0" expanded="true" />
                     <element signature="e#525#526#0" expanded="true" />
                     <element signature="e#543#544#0" expanded="true" />
-                    <element signature="e#670#671#0" expanded="true" />
-                    <element signature="e#682#683#0" expanded="true" />
                     <element signature="e#729#730#0" expanded="true" />
                     <element signature="e#738#739#0" expanded="true" />
                   </folding>
@@ -154,13 +166,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.Tests">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="strategy" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
     <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="strategy" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -169,23 +174,6 @@
       <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Tests.ItWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="strategy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="ItWorks" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -212,13 +200,47 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Tests.MallardSwim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.MuteQuack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="strategy" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="MallardSwim" />
+      <option name="METHOD_NAME" value="MuteQuack" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Tests.Quack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strategy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="Quack" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Tests.Squeak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strategy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="Squeak" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -230,19 +252,19 @@
       <patterns />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.Tests.ItWorks" />
+      <item itemvalue="JUnit.Tests.Quack" />
+      <item itemvalue="JUnit.Tests.Squeak" />
+      <item itemvalue="JUnit.Tests.MuteQuack" />
       <item itemvalue="JUnit.Tests" />
       <item itemvalue="JUnit.Tests.MallardQuack" />
-      <item itemvalue="JUnit.Tests.MallardSwim" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Tests" />
         <item itemvalue="JUnit.Tests.MallardQuack" />
-        <item itemvalue="JUnit.Tests.MallardSwim" />
-        <item itemvalue="JUnit.Tests.ItWorks" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Tests.MuteQuack" />
+        <item itemvalue="JUnit.Tests.Squeak" />
+        <item itemvalue="JUnit.Tests.Quack" />
       </list>
     </recent_temporary>
   </component>
@@ -256,44 +278,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528347737707</updated>
-      <workItem from="1528347749998" duration="3410000" />
+      <workItem from="1528347749998" duration="6530000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2018.06.06 at 22h 27m 54s.xml">
+    <history-entry file="Tests - 2018.06.06 at 23h 22m 09s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.06.06 at 22h 28m 01s.xml">
+    <history-entry file="Tests - 2018.06.06 at 23h 37m 06s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.06.06 at 22h 29m 07s.xml">
+    <history-entry file="Tests_MallardQuack - 2018.06.06 at 23h 37m 48s.xml">
+      <configuration name="Tests.MallardQuack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_MallardQuack - 2018.06.06 at 23h 42m 50s.xml">
+      <configuration name="Tests.MallardQuack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_MallardQuack - 2018.06.06 at 23h 45m 12s.xml">
+      <configuration name="Tests.MallardQuack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_MallardQuack - 2018.06.06 at 23h 45m 33s.xml">
+      <configuration name="Tests.MallardQuack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_MallardQuack - 2018.06.06 at 23h 45m 55s.xml">
+      <configuration name="Tests.MallardQuack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.06.06 at 23h 46m 09s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.06.06 at 22h 29m 14s.xml">
+    <history-entry file="Tests - 2018.06.06 at 23h 47m 25s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.06.06 at 22h 31m 00s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.06.06 at 22h 31m 07s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.06.06 at 22h 34m 17s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.06.06 at 22h 39m 12s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.06.06 at 22h 39m 43s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.06.06 at 22h 44m 00s.xml">
+    <history-entry file="Tests - 2018.06.06 at 23h 50m 48s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3410000" />
+    <option name="totallyTimeSpent" value="6530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="1053" extended-state="6" />
@@ -301,14 +323,14 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3299285" />
+      <window_info anchor="bottom" id="Messages" weight="0.3299285" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32890704" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32890704" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -337,7 +359,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -350,27 +372,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Duck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="503">
+          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
           <folding>
-            <element signature="e#52#53#0" expanded="true" />
-            <element signature="e#71#72#0" expanded="true" />
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#51#52#0" expanded="true" />
+            <element signature="e#76#77#0" expanded="true" />
+            <element signature="class#FlyBehavior#0" />
+            <element signature="class#FlyWithWings#0" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="class#FlyNoWay#0" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="class#QuackBehavior#0" />
+            <element signature="class#Quack#0" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="class#Squeak#0" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="class#MuteQuack#0" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
             <element signature="e#340#341#0" expanded="true" />
             <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
             <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
             <element signature="e#729#730#0" expanded="true" />
             <element signature="e#738#739#0" expanded="true" />
           </folding>
@@ -379,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        <state relative-caret-position="1875">
+          <caret line="125" column="58" selection-start-line="125" selection-start-column="58" selection-end-line="125" selection-end-column="58" />
         </state>
       </provider>
     </entry>

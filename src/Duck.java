@@ -1,51 +1,82 @@
 public abstract class Duck {
+	FlyBehavior fb;
+	QuackBehavior qb;
+
+	public String performFly() {
+		return fb.fly();
+	}
+
+	public String performQuack() {
+		return qb.quack();
+	}
+
 	public String swim() {
 		return "Swimming!";
 	}
 	public abstract String display();
 }
 
-interface Flyable {
+interface FlyBehavior {
 	String fly();
 }
-interface Quackable {
-	String quack();
+class FlyWithWings implements FlyBehavior {
+	public String fly() {
+		return "Fly away!";
+	}
+}
+class FlyNoWay implements FlyBehavior {
+	public String fly() {
+		return "No way";
+	}
 }
 
-class Mallard extends Duck implements Flyable, Quackable {
+interface QuackBehavior {
+	String quack();
+}
+class Quack implements QuackBehavior {
+	public String quack() {
+		return "Quack!";
+	}
+}
+class Squeak implements QuackBehavior {
+	public String quack() {
+		return "Squeak";
+	}
+}
+class MuteQuack implements QuackBehavior {
+	public String quack() {
+		return "...";
+	}
+}
+
+class Mallard extends Duck {
+	public Mallard(FlyBehavior fb, QuackBehavior qb) {
+		this.fb = fb;
+		this.qb = qb;
+	}
+
 	@Override
 	public String display() {
 		return "Mallard";
 	}
-
-	@Override
-	public String fly() {
-		return "Fly away!";
-	}
-
-	public String quack() {
-		return "Quack!";
-	}
 }
 
-class Redhead extends Duck implements Flyable, Quackable {
+class Redhead extends Duck {
+	public Redhead(FlyBehavior fb, QuackBehavior qb) {
+		this.fb = fb;
+		this.qb = qb;
+	}
+
 	@Override
 	public String display() {
 		return "Redhead";
 	}
-
-	public String fly() {
-		return "Fly away!";
-	}
-
-	public String quack() {
-		return "Quack!";
-	}
 }
 
-class Rubber extends Duck implements Quackable {
-	public String quack() {
-		return "Squeak";
+class Rubber extends Duck {
+	public Rubber(FlyBehavior fb, QuackBehavior qb) {
+		this.fb = fb;
+		this.qb = qb;
 	}
 
 	@Override
@@ -55,6 +86,11 @@ class Rubber extends Duck implements Quackable {
 }
 
 class Decoy extends Duck {
+	public Decoy(FlyBehavior fb, QuackBehavior qb) {
+		this.fb = fb;
+		this.qb = qb;
+	}
+
 	@Override
 	public String display() {
 		return "Decoy";
